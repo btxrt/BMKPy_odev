@@ -9,7 +9,8 @@ print(markalar[0]+" "+markalar[3])
 markalar[2]="Togg"
 print(markalar)
 
-print("bence hayırr")
+sonuc= "togg" in markalar
+print(sonuc)
 
 markalar.append("Ford")
 markalar.append("Citroen")
